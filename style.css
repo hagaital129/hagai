@@ -1,5 +1,38 @@
-#first{margin-left: 80%;background-color: rgb(107, 191, 255);border: 2px solid black}
-.ins1{ width: 5px; height: 5px; border: 1px solid black}
+body{
+background-image: url("https://vegansontop.co.il/wp-content/uploads/IMG_3020-1024x683.jpg") ;
+   background-repeat: no-repeat; background-attachment: fixed; background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize; text-align: center;
+}
+#header{
+    margin-left: 5cm; margin-right: 5cm; margin-top: 2cm; margin-bottom: 2cm;
+    background-color:#f2e5d2; text-align: center; 
+    
+}
+#menu{margin-left: 5cm; margin-right: 5cm; margin-bottom: 1cm; background-color: #f2e5d2; 
+}
+table{
+    margin-left: 18%; width: 16cm; text-align: center; 
+}
+th{
+    border: 1px solid rgb(169,169,169); width: 4cm; height: 1.5cm;
+}
+td{
+    border: 1px solid rgb(169,169,169); width: 4cm; height: 2.5cm;
+}
 
-#second{margin-left: 50%; border: 2px solid black}
-.ins2{ width: 5px; height: 5px; border: 1px dotted black}
+.pic{
+    width: 5cm; 
+}
+.pic1{
+    width: 3.5cm; height: 2.5cm;
+}
+#order{
+    margin-left: 5cm; margin-right: 5cm; margin-top: 1cm; 
+    background-color: #f2e5d2; height: 4cm; text-align: center; 
+
+}
+a:link{
+    color: white; font-size: 30pt;
+}
+
