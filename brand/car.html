@@ -1,0 +1,46 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="car.css">
+</head>
+<body>
+<div class="container">
+    <div id="headBackground">
+    <h1 id="header"> Hagai's Vehicle Finder</h1>
+</div>
+
+<table class="table-dark table table-hover">
+       
+        <tr> <th> Please enter Brand name: </th><th><input type="text" id="brand" size="20" name="brand"></th></tr>
+        <tr> <th> Please enter type of vehicle: </th><th><input type="text" id="type" size="20" name="type"></th></tr>
+        <tr> <th> Please choose the CC (between 800-6000):  </th><th><input type="text" id="cc" size="20" name="cc"></th></tr>
+        
+        <tr> <th> Please choose the color:&emsp;
+                
+                <input type="radio" name="color" value="White"> White &emsp;
+                <input type="radio" name="color" value="Blue"> Blue &emsp;
+                <input type="radio" name="color" value="Red"> Red &emsp;
+                <input type="radio" name="color" value="Black"> Black &emsp;
+                
+        </th><th>
+        <tr> <th> Please choose number of seats:
+                <select id="seats">
+                       
+                        <option value="twoSeats">2 seats</option>
+                        <option value="fourSeats">4 seats</option>
+                        <option value="fiveSeats">5 seats</option>
+                        <option value="sevenSeats">7 seats</option>
+                </select>
+        </th><th><br><br>
+   
+               
+                <button onclick="submit()">Search</button>
+                <p id="result"></p>
+             
+            </div>
+
+<script type="text/javascript" src="car.js"></script>
+</script>
+</body>
+</html>
